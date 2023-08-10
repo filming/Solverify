@@ -8,7 +8,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/filming/solverify">
-	<img src="assets/logo.png" alt="Logo" width="1200" height="400">
+	<img src="assets/logo.png" alt="Logo" width="1000" height="400">
   </a>
 
 <h3 align="center">Solverify</h3>
