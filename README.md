@@ -109,7 +109,7 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Once you run the program & insert your api keys into the .env file, you can begin implementing the package files within your own programs. Below are screenshots that some basic usage.
+Once you run the program & insert your api keys into the .env file, you can begin implementing the package files within your own programs. Below are screenshots that display basic usage.
 
 <a href="#usage">
     <img src="/assets/captcha_usage.png" alt="Solverify Captcha" width="900" />
