@@ -59,6 +59,10 @@ class TwoCaptcha:
 
                 elif resp["status"] == 1:
                     self.captcha_key = resp["request"]
+
+                    if isinstance(self.captcha_key, dict):
+                        self.captcha_key = resp["request"]["token"]
+                        
                     is_finished_requesting = True
                 
                 else:
@@ -66,6 +70,6 @@ class TwoCaptcha:
         
         if is_error:
             sys.exit(f"{r.status_code} | {r.text}")
-
+    
     async def refund_captcha(self):
         pass
