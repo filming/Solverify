@@ -66,3 +66,6 @@ class TwoCaptcha:
         
         if is_error:
             sys.exit(f"{r.status_code} | {r.text}")
+
+    async def refund_captcha(self):
+        pass
